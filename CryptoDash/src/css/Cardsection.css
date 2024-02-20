@@ -1,0 +1,64 @@
+.Coin_name{
+    color:gold;
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section_head{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card-body{
+    box-shadow: 0 0.2rem 2rem rgba(135, 43, 196, 0.5);
+
+    opacity: 0.8;
+    background-color: rgb(0, 0, 1);
+    margin: 4rem;
+    border-radius: 2rem
+    /* border-radius: 4rem; */
+    
+}
+.card-title{
+    font: 20rem;
+    color: white;
+    padding: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.p1{
+    color: gold;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+.Current_price{
+font-size: 6rem;}
+.price{
+color: gold;
+    font-family: NHaasGroteskDSPro-65Md;
+     font-size: 6rem;
+    font-weight: 700;
+     color: #fcdf03;
+    text-align: center
+}
+
+@media (max-width:800px) {
+    .section_bottom {
+        display: flex;
+    }
+    .section_head{
+        flex-direction: column;
+    }
+    .card-body{
+        margin: 1rem;
+    }
+.remove{
+    display: none;
+}
+.card-6{
+    margin-left: 3rem;
+}
+.card-5{
+    margin-left: 2.2rem;
+}
+}

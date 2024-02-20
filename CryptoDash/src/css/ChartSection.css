@@ -1,0 +1,73 @@
+.buttons{
+    display: flex;
+flex-direction: row;
+/* width: 10rem; */
+align-items: center;
+align-content: center;
+margin-left: 2rem;
+}
+button{    box-shadow: 0 0.2rem 1rem rgba(106, 39, 133, 0.5);
+
+    cursor: pointer;
+font-size: 1.5rem;
+margin-left: 2rem;
+margin-bottom: 2rem;
+padding: 1rem;
+color: white;
+background-color: black;}
+button:hover{
+background-color: gold;}
+.chart-with-btn{
+margin-left: 10rem;
+margin-top: 4rem;
+width: 10rem;
+}
+.bottom_cards{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(15;
+     15;
+     15); */
+    width: 100%;
+}
+.card_btm{
+    padding: 4rem;
+    border: 0.1rem solid wheat;
+}
+.card-title2{
+    font-size: 3rem;
+}
+.p2{
+    font-size: 2rem;
+    padding-top: 2rem;
+    color: gold;
+}
+.chart-with-btn{
+    margin-left: 54rem;
+}
+.bottom_charts{
+    max-width: 310px;
+     display:flex;
+    flex-direction:row;
+     margin-left:30rem;
+     padding-top:4rem;
+}
+@media (max-width:768px) {
+    .chart-with-btn{
+margin-left: 0;  
+  }
+  .buttons{
+    margin-left: 2rem;
+  }
+  .bottom_cards{
+    flex-direction: column;
+    
+  }
+  .card-title2{
+font-size: 2rem;
+  }
+  .bottom_charts{
+    flex-direction: column;
+    margin-left: 0;
+  }
+}

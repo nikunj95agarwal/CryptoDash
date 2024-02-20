@@ -1,0 +1,52 @@
+html{
+    font-size: 64.5%;
+}
+.appbar{
+    background: url('https://i.pinimg.com/originals/4b/45/ae/4b45aef880c785d012d869610da1cddc.gif');
+background-position: center;
+    /* margin-top: 1rem; */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    border-bottom: 3px solid rgb(60, 59, 61);
+    box-shadow: 0 0.2rem 2rem rgba(55, 48, 188, 0.5);
+    width: auto;
+}
+.select{
+    font-weight: bolder;
+    color:gold;
+    margin-top: 0.5rem;
+    font-size:2rem;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: black;
+/* opacity: 0.8; */
+}
+Select{
+    color: rgb(117, 106, 106);
+}
+@media (max-width:1000px) {
+    .appbar{
+        width: auto;
+    }
+    Select{
+        width: 18rem;
+    }
+   .head_right{
+        font-size:2rem;
+        padding-top: 0.3rem;
+        font-weight: bolder;
+    }
+}
+.head_right{
+    font-weight: bolder;
+    background: -webkit-linear-gradient(#ffdd00, #877d7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right_bar {
+  width: 100%;
+    font-size: 3rem;
+  text-align: right;
+    /* margin-left: 40rem; */
+}

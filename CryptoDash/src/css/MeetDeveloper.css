@@ -1,0 +1,54 @@
+
+
+.main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    margin-top: 20px;
+}
+
+.img1, .img2 {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+}
+
+.icon {
+    margin: 0 5px; /* Add some spacing between icons */
+    
+}
+.follow{
+    width: 18px;
+    height: 12px;
+    margin-right: 10px;
+}
+@media (max-width: 900px) {
+    .img1 {
+        height: 200px;
+        margin-left: 3rem;
+    }
+    .img2 {
+        height: 200px;
+        margin-left: 5rem;
+    }
+
+    .icons {
+        margin-top: 10px;
+    }
+
+}
